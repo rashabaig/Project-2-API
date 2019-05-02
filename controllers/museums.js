@@ -26,20 +26,20 @@ router.post('/',(req,res) => {
 })
 //The above post request works to create a new museum
 
-router.put('/newExhibit/:id',(req,res) => {
-    MuseumModel.update({_id: req.params.id}, {$push: {exhibit: req.body}}).then(updatedMuseum => {
+router.put('/newExhibit/:museumID',(req,res) => {
+    MuseumModel.update({_id: req.params.museumID}, {$push: {exhibit: req.body}}).then(updatedMuseum => {
         res.json(updatedMuseum)
     })
 })
-// The above put request works to add an exhibit at a given museum
+// The above put request works to create a new exhibit for a given museum, since museums are always hosting new exhibits.
 
-router.put('/newReview/:id',(req,res) => {
-    MuseumModel.update({_id: req.params.id}, {$push: {review: req.body}}).then(updatedMuseum => {
+router.put('/newReview/:museumID',(req,res) => {
+    MuseumModel.update({_id: req.params.museumID}, {$push: {review: req.body}}).then(updatedMuseum => {
         res.json(updatedMuseum)
     })
 })
 
-//The above put request works to add a review to a given museum
+//The above put request works to create a new review for a given museum.
 
 router.delete('/:id', (req,res) => {
     MuseumModel.deleteOne({_id: req.params.id})
@@ -47,7 +47,19 @@ router.delete('/:id', (req,res) => {
         res.json(deleted)
     })
 })
-//The above delete request works to delete an entire museum record
+//The above delete request works to delete an entire museum record.
+router.put('/removeExhibit/:museumID/:exhibitID', (req,res) => {
+    MuseumModel.update({_id: req.params.museumID}, {$pull: {exhibit: {_id: req.params.exhibitID}}}).then(updatedExhibit => {
+        res.json(updatedExhibit)
+    })
+})
+//The above put request can be used to delete a given exhibit (since some exhibits are temporary) from the exhibits array of a given museum.
 
+router.put('/removeReview/:museumID/:reviewID', (req,res) => {
+    MuseumModel.update({_id: req.params.museumID}, {$pull: {exhibit: {_id: req.params.reviewID}}}).then(updatedReview => {
+        res.json(updatedReview)
+    })
+})
 
+//The above put request can be used to remove a given review from the reviews array of a given museum.
 module.exports = router

@@ -19,7 +19,7 @@ The data pertaining to the museum and exhibit models are taken from the respecti
 
 I have three models: a museum model, a review model, and an exhibit model. The museum model references the reveiw model, which consists of reviews for the museum (stars and comments), and the exhibit model contains the name and description of an exhibit at a given museum. 
 
-After seeding the database, I set up the index.js file and controller with http methods and mongoose queries for CRUD functionality implemented with RESTful routes. I then tested my routes with Postman
+After seeding the database, I set up the index.js file and controller with http methods and mongoose queries for CRUD functionality implemented with RESTful routes. I then tested my routes with Postman.
 
 ## CRUD Functionality
 
