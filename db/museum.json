@@ -6,15 +6,15 @@
         "state": "Washington, DC",
         "zipcode": 20001
       },
-      "metro-accessible": true,
+      "metroAccessible": "yes",
       "website": "https://www.nga.gov/",
-      "free-admission": true,
+      "freeAdmission": "yes",
       "review": [{
           "stars": 5,
           "comment": "great"
       }], 
       "exhibit": [{
-        "name": "Oliver Lee Jackson: Recent Paintings",
+        "exhibitName": "Oliver Lee Jackson: Recent Paintings",
         "description": "Complex body of work which masterfully weaves together visual influences ranging from the Renaissance to modernism with principles of rhythm and improvisation drawn from his study of African cultures and American jazomplex body of work which masterfully weaves together visual influences ranging from the Renaissance to modernism with principles of rhythm and improvisation drawn from his study of African cultures and American jazz"
         }]
     },
@@ -25,15 +25,15 @@
           "state": "Washington, DC",
           "zipcode": 20004
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://americanart.si.edu/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Wonderful"
       }], 
       "exhibit": [{
-        "name": "Artists Respond: American Art and the Vietnam War, 1965-1975",
+        "exhibitName": "Artists Respond: American Art and the Vietnam War, 1965-1975",
         "description": "Makes vivid an era in which artists endeavored to respond to the turbulent times and openly questioned issues central to American civic life."
         }]
       },
@@ -44,15 +44,15 @@
           "state": "Washington, DC",
           "zipcode": 20560
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://hirshhorn.si.edu/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Wonderful"
       }], 
       "exhibit": [{
-        "name": "Sculpture Garden and Plaza",
+        "exhibitName": "Sculpture Garden and Plaza",
         "description": "With more than sixty works of art displayed year-round, the Hirshhorn Museum’s Sculpture Garden offers visitors a contemplative haven in the heart of our nation’s capital."
         }]
       },
@@ -63,15 +63,15 @@
           "state": "Washington, DC",
           "zipcode": 20006
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://americanart.si.edu/visit/renwick",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 5,
           "comment": "Interesting exhibits"
       }], 
       "exhibit": [{
-        "name": "Connections",
+        "exhibitName": "Connections",
         "description": "Dynamic ongoing permanent collection presentation, featuring more than 80 objects celebrating craft as a discipline and an approach to living differently in the modern world."
         }]
       },
@@ -82,15 +82,15 @@
           "state": "Washington, DC",
           "zipcode": 20001
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://npg.si.edu/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Beautiful gallery"
       }], 
       "exhibit": [{
-        "name": "American Origins",
+        "exhibitName": "American Origins",
         "description": "A series of 17 galleries and alcoves chronologically arranged to take the visitor from the days of contact between Native Americans and European explorers through the struggles of independence to the Gilded Age."
         }]
       },
@@ -101,15 +101,15 @@
           "state": "Washington, DC",
           "zipcode": 20013
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://www.freersackler.si.edu/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Interesting exhibits"
       }], 
       "exhibit": [{
-        "name": "Encountering the Buddha: Art and Practice across Asia",
+        "exhibitName": "Encountering the Buddha: Art and Practice across Asia",
         "description": "Brings together more than two hundred artworks, spanning two millennia, to explore Asia’s rich Buddhist heritage"
         }]
       },
@@ -120,15 +120,15 @@
           "state": "Washington, DC",
           "zipcode": 20560
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://africa.si.edu/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Highly recommend visiting"
       }], 
       "exhibit": [{
-        "name": "Currents: Water in African Art",
+        "exhibitName": "Currents: Water in African Art",
         "description": "Diverse and wide-ranging in material, time period, style, and intended use, the objects in this exhibition span the continent of Africa to explore the importance of water for both practical and artistic purposes."
         }]
       },
@@ -139,15 +139,15 @@
           "state": "Washington, DC",
           "zipcode": 20006
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "http://museum.oas.org/",
-        "free-admission": true,
+        "freeAdmission": "yes",
         "review": [{
           "stars": 4,
           "comment": "Insightful artwork"
       }], 
       "exhibit": [{
-        "name": "On the Move: Photographs by Juana Barreto Yampey, Helena Giestas, and Olivia Vivanco",
+        "exhibitName": "On the Move: Photographs by Juana Barreto Yampey, Helena Giestas, and Olivia Vivanco",
         "description": "This exhibition explores the connective bonds between individual and collective experiences."
         }]
       },
@@ -158,15 +158,15 @@
           "state": "Washington, DC",
           "zipcode": 20005
         },
-        "metro-accessible": true,
+        "metroAccessible": "yes",
         "website": "https://nmwa.org/",
-        "free-admission": false,
+        "freeAdmission": "no",
         "review": [{
           "stars": 4,
           "comment": "Informative exhibits"
       }], 
       "exhibit": [{
-        "name": "Ursula von Rydingsvard: The Contour of Feeling",
+        "exhibitName": "Ursula von Rydingsvard: The Contour of Feeling",
         "description": "Exhibition of monumental sculptures"
         }]
       }

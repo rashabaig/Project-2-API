@@ -9,14 +9,14 @@ router.get('/', (req,res)=> {
     })
 })
 
-router.post('/new',(req,res) => {
+router.post('/',(req,res) => {
     let newMuseum = req.body
     MuseumModel.create(newMuseum).then(created => {
         res.json(created)
     })
 })
 
-router.put('/update/:id',(req,res) => {
+router.put('/:id',(req,res) => {
     MuseumModel.findOneAndUpdate({_id: req.params.id}, req.body).then(updatedMuseum => {
         res.json(updatedMuseum)
     })

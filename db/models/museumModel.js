@@ -1,6 +1,14 @@
 const mongoose = require('../../connection')
-const ReviewModel = require('./reviewModel')
-const ExhibitModel = require('./exhibitModel')
+// const ExhibitModel = require('./exhibitModel')
+const ExhibitModel = new mongoose.Schema({
+    exhibitName: String,
+    description: String
+})
+const ReviewModel = new mongoose.Schema({
+      stars: Number,
+      comment: String
+})
+
 const MuseumModel = new mongoose.Schema({
     name: String,
     address: {
@@ -12,7 +20,7 @@ const MuseumModel = new mongoose.Schema({
     website: String,
     freeAdmission: Boolean,
     review: [ReviewModel], 
-    exhibit: [ ExhibitModel]
+    exhibit: [ExhibitModel]
 })
 
 module.exports = mongoose.model("Museums", MuseumModel )

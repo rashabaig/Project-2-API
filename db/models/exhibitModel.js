@@ -1,9 +1,9 @@
-const mongoose = require('../../connection')
-const ExhibitModel = new mongoose.Schema({
-    exhibit: [{
-      name: String,
-      description: String
-      }]
-})
+// const mongoose = require('../../connection')
+// const ExhibitModel = new mongoose.Schema({
+//     exhibit: [{
+//       exhibitName: String,
+//       description: String
+//       }]
+// })
 
-module.exports = mongoose.model("Exhibits", ExhibitModel )
+// module.exports = ExhibitModel
