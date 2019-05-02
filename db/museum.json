@@ -3,7 +3,7 @@
       "name": "National Gallery of Art",
       "address": {
         "street": "Between 3rd and 9th Streets along Constitution Ave NW",
-        "state": "Washington, DC",
+        "city": "Washington, DC",
         "zipcode": 20001
       },
       "metroAccessible": "yes",
@@ -22,7 +22,7 @@
         "name": "Smithsonian American Art Museum",
         "address": {
           "street": "8th and F Streets, NW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20004
         },
         "metroAccessible": "yes",
@@ -41,7 +41,7 @@
         "name": "Hirshhorn",
         "address": {
           "street": "Independence Ave and 7th St",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20560
         },
         "metroAccessible": "yes",
@@ -60,7 +60,7 @@
         "name": "Renwick Gallery",
         "address": {
           "street": "Pennsylvania Avenue at 17th Street NW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20006
         },
         "metroAccessible": "yes",
@@ -79,7 +79,7 @@
         "name": "National Portrait Gallery",
         "address": {
           "street": "8th and F Streets NW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20001
         },
         "metroAccessible": "yes",
@@ -98,7 +98,7 @@
         "name": "Freer Gallery of Art",
         "address": {
           "street": "Jefferson Drive at 12th Street SW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20013
         },
         "metroAccessible": "yes",
@@ -117,7 +117,7 @@
         "name": "National Museum of African Art",
         "address": {
           "street": "950 Independence Avenue, SW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20560
         },
         "metroAccessible": "yes",
@@ -136,7 +136,7 @@
         "name": "Art Museum of the Americas",
         "address": {
           "street": "201 18th Street, NW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20006
         },
         "metroAccessible": "yes",
@@ -155,7 +155,7 @@
         "name": "National Museum of Women in the Arts",
         "address": {
           "street": "1250 New York Ave NW",
-          "state": "Washington, DC",
+          "city": "Washington, DC",
           "zipcode": 20005
         },
         "metroAccessible": "yes",

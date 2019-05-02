@@ -1,5 +1,5 @@
 const mongoose = require('../../connection')
-// const ExhibitModel = require('./exhibitModel')
+
 const ExhibitModel = new mongoose.Schema({
     exhibitName: String,
     description: String
@@ -13,6 +13,7 @@ const MuseumModel = new mongoose.Schema({
     name: String,
     address: {
       street: String,
+      city: String,
       state: String,
       zipcode: Number
     },
