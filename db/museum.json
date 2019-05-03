@@ -169,6 +169,66 @@
         "exhibitName": "Ursula von Rydingsvard: The Contour of Feeling",
         "description": "Exhibition of monumental sculptures"
         }]
+      },
+      {
+        "name": "Solomon R. Guggenheim Museum", 
+        "address": {
+        "street": "1071 5th Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipcode":10128
+        },
+        "metro-accessible": true, 
+        "website":"https://www.guggenheim.org/",
+        "freeAdmission": false,
+        "review" : [{
+        "stars": 4,
+        "comment": "Beautiful building, beautiful art!"
+        }],
+        "exhibit": [{
+        "exhibitName": "Thannhauser Collection",
+        "description": "Impressionist, Post-Impressionist, and modern French masterpieces from the Guggenheim’s collection, including works by Degas, Gauguin, Kandinsky, Picasso, and more."
+        }]
+      },
+      {
+        "name": "The Metropolitan Museum of Art", 
+        "address": {
+        "street": "1000 Fifth Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipcode":10028
+        },
+        "metro-accessible": true, 
+        "website":"https://www.metmuseum.org/",
+        "freeAdmission": false,
+        "review" : [{
+        "stars": 5,
+        "comment":"My favorite museum! Definitely worth exploring, so much to see!"
+        }],
+        "exhibit": [{
+        "exhibitName": "Selections from the Department of Drawings and Prints: Rembrandt",
+        "description": "This installation will commemorate the 350th anniversary of the death of the great Dutch draftsman, painter, and printmaker Rembrandt van Rijn."
+        }]
+      },
+      {
+        "name": "Museum of Modern Art", 
+        "address": {
+        "street": "18 West 53 Street",
+        "city": "New York",
+        "state": "NY",
+        "zipcode":10019
+        },
+        "metro-accessible": true, 
+        "website":"https://www.moma.org/",
+        "freeAdmission": false,
+        "review" : [{
+        "stars": 5,
+        "comment":"My favorite museum! Definitely worth exploring, so much to see!"
+        }],
+        "exhibit": [{
+        "exhibitName": "Collection Galleries 1880s–1950s",
+        "description": "Within an overall chronological flow, galleries highlight individual stylistic movements, artists, and themes, including Cubism, the work of Henri Matisse, and Claude Monet’s Water Lilies, among other subjects."
+        }]
       }
     ]
 

@@ -39,7 +39,7 @@ router.put('/newReview/:museumID',(req,res) => {
     })
 })
 
-//The above put request works to create a new review for a given museum.
+//The above put request works to create a new review for a given museum, by museum ID.
 
 router.delete('/:id', (req,res) => {
     MuseumModel.deleteOne({_id: req.params.id})
@@ -47,7 +47,7 @@ router.delete('/:id', (req,res) => {
         res.json(deleted)
     })
 })
-//The above delete request works to delete an entire museum record.
+//The above delete request works to delete an entire museum record by ID.
 router.put('/removeExhibit/:museumID/:exhibitID', (req,res) => {
     MuseumModel.update({_id: req.params.museumID}, {$pull: {exhibit: {_id: req.params.exhibitID}}}).then(updatedExhibit => {
         res.json(updatedExhibit)
