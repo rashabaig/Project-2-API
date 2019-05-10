@@ -1,0 +1,24 @@
+body {
+    background-image: url(./confetti.jpg);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+li {
+    
+    color:white;
+    border-radius: 8px; 
+    display: block;
+}
+h1{
+    background-color: white;
+    border-radius: 8px;
+    color:rgb(214, 77, 28);
+    
+}
+ul{
+    background-color:rgb(24, 70, 104);
+    display: inline-block;
+    border-radius: 8px;
+}

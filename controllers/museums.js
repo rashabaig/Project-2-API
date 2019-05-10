@@ -2,12 +2,21 @@ const express = require('express')
 const router = express.Router()
 const MuseumModel = require('../db/models/museumModel')
 
+router.get('/home', function (req, res) {
+    MuseumModel.find({}).then(allMuseums => {
+        res.render('index', {museums: allMuseums})
+    })
+  })
+
+//The above function 
+
 router.get('/', (req,res)=> {
     MuseumModel.find({}).then(allmuseums => {
         console.log(allmuseums)
         res.json(allmuseums)
     })
 })
+
 //The above get request works to show all museums
 router.get("/:name", (req,res) => {
     let museumName = req.params.name
@@ -15,7 +24,6 @@ router.get("/:name", (req,res) => {
         res.json(museum)
     })
 })
-//The above get request works to get a specific museum, by name
 
 router.post('/',(req,res) => {
     let newMuseum = req.body
@@ -55,8 +63,9 @@ router.put('/removeExhibit/:museumID/:exhibitID', (req,res) => {
 })
 //The above put request can be used to delete a given exhibit (since some exhibits are temporary) from the exhibits array of a given museum.
 
-router.put('/removeReview/:museumID/:reviewID', (req,res) => {
-    MuseumModel.update({_id: req.params.museumID}, {$pull: {exhibit: {_id: req.params.reviewID}}}).then(updatedReview => {
+router.delete('/removeReview/:museumID/:reviewID', (req,res) => {
+    console.log(req.params)
+    MuseumModel.update({_id: req.params.museumID}, {$pull: {review: {_id: req.params.reviewID}}}).then(updatedReview => {
         res.json(updatedReview)
     })
 })
