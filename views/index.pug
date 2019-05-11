@@ -6,9 +6,15 @@ html
 
     link(rel='stylesheet', type='text/css', href='/css/style.css')
   body
-    h1= 'Art Museum API'
-    ul
+    header
+      h1= 'Art Museum API'
+    h2='List of Art Museums'
+    div(class='container')
         for museum in museums
-            li= museum.name
-            li=museum.address.city
-            li=museum.address.state
+          div
+            h4= museum.name
+            h4=museum.address.city
+            h4=museum.address.state
+            for exhibit in museum.exhibit
+              h5=`Featured exhibit: ${museum.exhibit[0].exhibitName}` 
+              h6=museum.exhibit[0].description

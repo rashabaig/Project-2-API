@@ -1,234 +1,281 @@
 [
-    {
-      "name": "National Gallery of Art",
-      "address": {
-        "street": "Between 3rd and 9th Streets along Constitution Ave NW",
-        "city": "Washington, DC",
-        "zipcode": 20001
-      },
-      "metroAccessible": "yes",
-      "website": "https://www.nga.gov/",
-      "freeAdmission": "yes",
-      "review": [{
-          "stars": 5,
-          "comment": "great"
-      }], 
-      "exhibit": [{
+  {
+    "name": "National Gallery of Art",
+    "address": {
+      "street": "Between 3rd and 9th Streets along Constitution Ave NW",
+      "city": "Washington, DC",
+      "zipcode": 20001
+    },
+    "metroAccessible": "yes",
+    "website": "https://www.nga.gov/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 5,
+        "comment": "great"
+      }
+    ],
+    "exhibit": [
+      {
         "exhibitName": "Oliver Lee Jackson: Recent Paintings",
         "description": "Complex body of work which masterfully weaves together visual influences ranging from the Renaissance to modernism with principles of rhythm and improvisation drawn from his study of African cultures and American jazomplex body of work which masterfully weaves together visual influences ranging from the Renaissance to modernism with principles of rhythm and improvisation drawn from his study of African cultures and American jazz"
-        }]
-    },
-    {
-        "name": "Smithsonian American Art Museum",
-        "address": {
-          "street": "8th and F Streets, NW",
-          "city": "Washington, DC",
-          "zipcode": 20004
-        },
-        "metroAccessible": "yes",
-        "website": "https://americanart.si.edu/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Wonderful"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Artists Respond: American Art and the Vietnam War, 1965-1975",
-        "description": "Makes vivid an era in which artists endeavored to respond to the turbulent times and openly questioned issues central to American civic life."
-        }]
-      },
-      {
-        "name": "Hirshhorn",
-        "address": {
-          "street": "Independence Ave and 7th St",
-          "city": "Washington, DC",
-          "zipcode": 20560
-        },
-        "metroAccessible": "yes",
-        "website": "https://hirshhorn.si.edu/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Wonderful"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Sculpture Garden and Plaza",
-        "description": "With more than sixty works of art displayed year-round, the Hirshhorn Museum’s Sculpture Garden offers visitors a contemplative haven in the heart of our nation’s capital."
-        }]
-      },
-      {
-        "name": "Renwick Gallery",
-        "address": {
-          "street": "Pennsylvania Avenue at 17th Street NW",
-          "city": "Washington, DC",
-          "zipcode": 20006
-        },
-        "metroAccessible": "yes",
-        "website": "https://americanart.si.edu/visit/renwick",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 5,
-          "comment": "Interesting exhibits"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Connections",
-        "description": "Dynamic ongoing permanent collection presentation, featuring more than 80 objects celebrating craft as a discipline and an approach to living differently in the modern world."
-        }]
-      },
-      {
-        "name": "National Portrait Gallery",
-        "address": {
-          "street": "8th and F Streets NW",
-          "city": "Washington, DC",
-          "zipcode": 20001
-        },
-        "metroAccessible": "yes",
-        "website": "https://npg.si.edu/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Beautiful gallery"
-      }], 
-      "exhibit": [{
-        "exhibitName": "American Origins",
-        "description": "A series of 17 galleries and alcoves chronologically arranged to take the visitor from the days of contact between Native Americans and European explorers through the struggles of independence to the Gilded Age."
-        }]
-      },
-      {
-        "name": "Freer Gallery of Art",
-        "address": {
-          "street": "Jefferson Drive at 12th Street SW",
-          "city": "Washington, DC",
-          "zipcode": 20013
-        },
-        "metroAccessible": "yes",
-        "website": "https://www.freersackler.si.edu/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Interesting exhibits"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Encountering the Buddha: Art and Practice across Asia",
-        "description": "Brings together more than two hundred artworks, spanning two millennia, to explore Asia’s rich Buddhist heritage"
-        }]
-      },
-      {
-        "name": "National Museum of African Art",
-        "address": {
-          "street": "950 Independence Avenue, SW",
-          "city": "Washington, DC",
-          "zipcode": 20560
-        },
-        "metroAccessible": "yes",
-        "website": "https://africa.si.edu/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Highly recommend visiting"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Currents: Water in African Art",
-        "description": "Diverse and wide-ranging in material, time period, style, and intended use, the objects in this exhibition span the continent of Africa to explore the importance of water for both practical and artistic purposes."
-        }]
-      },
-      {
-        "name": "Art Museum of the Americas",
-        "address": {
-          "street": "201 18th Street, NW",
-          "city": "Washington, DC",
-          "zipcode": 20006
-        },
-        "metroAccessible": "yes",
-        "website": "http://museum.oas.org/",
-        "freeAdmission": "yes",
-        "review": [{
-          "stars": 4,
-          "comment": "Insightful artwork"
-      }], 
-      "exhibit": [{
-        "exhibitName": "On the Move: Photographs by Juana Barreto Yampey, Helena Giestas, and Olivia Vivanco",
-        "description": "This exhibition explores the connective bonds between individual and collective experiences."
-        }]
-      },
-      {
-        "name": "National Museum of Women in the Arts",
-        "address": {
-          "street": "1250 New York Ave NW",
-          "city": "Washington, DC",
-          "zipcode": 20005
-        },
-        "metroAccessible": "yes",
-        "website": "https://nmwa.org/",
-        "freeAdmission": "no",
-        "review": [{
-          "stars": 4,
-          "comment": "Informative exhibits"
-      }], 
-      "exhibit": [{
-        "exhibitName": "Ursula von Rydingsvard: The Contour of Feeling",
-        "description": "Exhibition of monumental sculptures"
-        }]
-      },
-      {
-        "name": "Solomon R. Guggenheim Museum", 
-        "address": {
-        "street": "1071 5th Avenue",
-        "city": "New York",
-        "state": "NY",
-        "zipcode":10128
-        },
-        "metro-accessible": true, 
-        "website":"https://www.guggenheim.org/",
-        "freeAdmission": false,
-        "review" : [{
-        "stars": 4,
-        "comment": "Beautiful building, beautiful art!"
-        }],
-        "exhibit": [{
-        "exhibitName": "Thannhauser Collection",
-        "description": "Impressionist, Post-Impressionist, and modern French masterpieces from the Guggenheim’s collection, including works by Degas, Gauguin, Kandinsky, Picasso, and more."
-        }]
-      },
-      {
-        "name": "The Metropolitan Museum of Art", 
-        "address": {
-        "street": "1000 Fifth Avenue",
-        "city": "New York",
-        "state": "NY",
-        "zipcode":10028
-        },
-        "metro-accessible": true, 
-        "website":"https://www.metmuseum.org/",
-        "freeAdmission": false,
-        "review" : [{
-        "stars": 5,
-        "comment":"My favorite museum! Definitely worth exploring, so much to see!"
-        }],
-        "exhibit": [{
-        "exhibitName": "Selections from the Department of Drawings and Prints: Rembrandt",
-        "description": "This installation will commemorate the 350th anniversary of the death of the great Dutch draftsman, painter, and printmaker Rembrandt van Rijn."
-        }]
-      },
-      {
-        "name": "Museum of Modern Art", 
-        "address": {
-        "street": "18 West 53 Street",
-        "city": "New York",
-        "state": "NY",
-        "zipcode":10019
-        },
-        "metro-accessible": true, 
-        "website":"https://www.moma.org/",
-        "freeAdmission": false,
-        "review" : [{
-        "stars": 5,
-        "comment":"My favorite museum! Definitely worth exploring, so much to see!"
-        }],
-        "exhibit": [{
-        "exhibitName": "Collection Galleries 1880s–1950s",
-        "description": "Within an overall chronological flow, galleries highlight individual stylistic movements, artists, and themes, including Cubism, the work of Henri Matisse, and Claude Monet’s Water Lilies, among other subjects."
-        }]
       }
     ]
-
+  },
+  {
+    "name": "Smithsonian American Art Museum",
+    "address": {
+      "street": "8th and F Streets, NW",
+      "city": "Washington, DC",
+      "zipcode": 20004
+    },
+    "metroAccessible": "yes",
+    "website": "https://americanart.si.edu/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Wonderful"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Artists Respond: American Art and the Vietnam War, 1965-1975",
+        "description": "Makes vivid an era in which artists endeavored to respond to the turbulent times and openly questioned issues central to American civic life."
+      }
+    ]
+  },
+  {
+    "name": "Hirshhorn",
+    "address": {
+      "street": "Independence Ave and 7th St",
+      "city": "Washington, DC",
+      "zipcode": 20560
+    },
+    "metroAccessible": "yes",
+    "website": "https://hirshhorn.si.edu/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Wonderful"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Sculpture Garden and Plaza",
+        "description": "With more than sixty works of art displayed year-round, the Hirshhorn Museum’s Sculpture Garden offers visitors a contemplative haven in the heart of our nation’s capital."
+      }
+    ]
+  },
+  {
+    "name": "Renwick Gallery",
+    "address": {
+      "street": "Pennsylvania Avenue at 17th Street NW",
+      "city": "Washington, DC",
+      "zipcode": 20006
+    },
+    "metroAccessible": "yes",
+    "website": "https://americanart.si.edu/visit/renwick",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 5,
+        "comment": "Interesting exhibits"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Connections",
+        "description": "Dynamic ongoing permanent collection presentation, featuring more than 80 objects celebrating craft as a discipline and an approach to living differently in the modern world."
+      }
+    ]
+  },
+  {
+    "name": "National Portrait Gallery",
+    "address": {
+      "street": "8th and F Streets NW",
+      "city": "Washington, DC",
+      "zipcode": 20001
+    },
+    "metroAccessible": "yes",
+    "website": "https://npg.si.edu/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Beautiful gallery"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "American Origins",
+        "description": "A series of 17 galleries and alcoves chronologically arranged to take the visitor from the days of contact between Native Americans and European explorers through the struggles of independence to the Gilded Age."
+      }
+    ]
+  },
+  {
+    "name": "Freer Gallery of Art",
+    "address": {
+      "street": "Jefferson Drive at 12th Street SW",
+      "city": "Washington, DC",
+      "zipcode": 20013
+    },
+    "metroAccessible": "yes",
+    "website": "https://www.freersackler.si.edu/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Interesting exhibits"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Encountering the Buddha: Art and Practice across Asia",
+        "description": "Brings together more than two hundred artworks, spanning two millennia, to explore Asia’s rich Buddhist heritage"
+      }
+    ]
+  },
+  {
+    "name": "National Museum of African Art",
+    "address": {
+      "street": "950 Independence Avenue, SW",
+      "city": "Washington, DC",
+      "zipcode": 20560
+    },
+    "metroAccessible": "yes",
+    "website": "https://africa.si.edu/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Highly recommend visiting"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Currents: Water in African Art",
+        "description": "Diverse and wide-ranging in material, time period, style, and intended use, the objects in this exhibition span the continent of Africa to explore the importance of water for both practical and artistic purposes."
+      }
+    ]
+  },
+  {
+    "name": "Art Museum of the Americas",
+    "address": {
+      "street": "201 18th Street, NW",
+      "city": "Washington, DC",
+      "zipcode": 20006
+    },
+    "metroAccessible": "yes",
+    "website": "http://museum.oas.org/",
+    "freeAdmission": "yes",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Insightful artwork"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "On the Move: Photographs by Juana Barreto Yampey, Helena Giestas, and Olivia Vivanco",
+        "description": "This exhibition explores the connective bonds between individual and collective experiences."
+      }
+    ]
+  },
+  {
+    "name": "National Museum of Women in the Arts",
+    "address": {
+      "street": "1250 New York Ave NW",
+      "city": "Washington, DC",
+      "zipcode": 20005
+    },
+    "metroAccessible": "yes",
+    "website": "https://nmwa.org/",
+    "freeAdmission": "no",
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Informative exhibits"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Ursula von Rydingsvard: The Contour of Feeling",
+        "description": "Exhibition of monumental sculptures"
+      }
+    ]
+  },
+  {
+    "name": "Solomon R. Guggenheim Museum",
+    "address": {
+      "street": "1071 5th Avenue",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": 10128
+    },
+    "metro-accessible": true,
+    "website": "https://www.guggenheim.org/",
+    "freeAdmission": false,
+    "review": [
+      {
+        "stars": 4,
+        "comment": "Beautiful building, beautiful art!"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Thannhauser Collection",
+        "description": "Impressionist, Post-Impressionist, and modern French masterpieces from the Guggenheim’s collection, including works by Degas, Gauguin, Kandinsky, Picasso, and more."
+      }
+    ]
+  },
+  {
+    "name": "The Metropolitan Museum of Art",
+    "address": {
+      "street": "1000 Fifth Avenue",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": 10028
+    },
+    "metro-accessible": true,
+    "website": "https://www.metmuseum.org/",
+    "freeAdmission": false,
+    "review": [
+      {
+        "stars": 5,
+        "comment": "My favorite museum! Definitely worth exploring, so much to see!"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Selections from the Department of Drawings and Prints: Rembrandt",
+        "description": "This installation will commemorate the 350th anniversary of the death of the great Dutch draftsman, painter, and printmaker Rembrandt van Rijn."
+      }
+    ]
+  },
+  {
+    "name": "Museum of Modern Art",
+    "address": {
+      "street": "18 West 53 Street",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": 10019
+    },
+    "metro-accessible": true,
+    "website": "https://www.moma.org/",
+    "freeAdmission": false,
+    "review": [
+      {
+        "stars": 5,
+        "comment": "My favorite museum! Definitely worth exploring, so much to see!"
+      }
+    ],
+    "exhibit": [
+      {
+        "exhibitName": "Collection Galleries 1880s–1950s",
+        "description": "Within an overall chronological flow, galleries highlight individual stylistic movements, artists, and themes, including Cubism, the work of Henri Matisse, and Claude Monet’s Water Lilies, among other subjects."
+      }
+    ]
+  }
+]
