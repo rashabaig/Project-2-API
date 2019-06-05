@@ -35,14 +35,14 @@ The museum controller contains methods for:
 1. Retrieving a list of all museums
 https://art--museum--api.herokuapp.com/api/museums
 2. Retrieving the details of a given museum by name
-https://art--museum--api.herokuapp.com/api/museums/name
+https://art--museum--api.herokuapp.com/api/museums/:name
 3. Creating a new museum
 https://art--museum--api.herokuapp.com/api/museums
 4. Creating a new review or a new exhibit for a given museum
 https://art--museum--api.herokuapp.com/api/museums/newExhibit/:museumID
 https://art--museum--api.herokuapp.com/api/museums/newReview/:museumID
 5. Removing a museum
-https://art--museum--api.herokuapp.com/api/museums/id
+https://art--museum--api.herokuapp.com/api/museums/:id
 6. Removing a specific review or a specific exhibit for a given museum.
 https://art--museum--api.herokuapp.com/api/museums/removeExhibit/:museumID/:exhibitID
 https://art--museum--api.herokuapp.com/api/museums/removeReview/:museumID/:reviewID
